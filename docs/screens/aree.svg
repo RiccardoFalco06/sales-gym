@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 300" width="340" height="300"><style>
+:root{--bg:#ffffff;--ink:#1d1d1f;--muted:#6e6e73;--line:#e8e8ed;--track:#f2f2f5;
+--blue:#2a78d6;--orange:#eb6834;--aqua:#1baf7a;--violet:#6250d6;--yellow:#eda100}
+@media (prefers-color-scheme:dark){:root{--bg:#1c1c1e;--ink:#f5f5f7;--muted:#a1a1a6;--line:#2f2f33;--track:#2a2a2d;
+--blue:#3987e5;--orange:#d95926;--aqua:#199e70;--violet:#9085e9;--yellow:#c98500}}
+text{font-family:-apple-system,"SF Pro Text",system-ui,sans-serif;fill:var(--ink)}
+.t{font-size:15px;font-weight:600;letter-spacing:-.2px}.h{font-size:44px;font-weight:600;letter-spacing:-1.2px}
+.u{font-size:15px;font-weight:400;letter-spacing:0;fill:var(--muted)}.s{font-size:12px;fill:var(--muted)}.b{font-size:13px}
+.pop{transform-box:fill-box;transform-origin:center;animation:pop .5s cubic-bezier(.2,1.4,.4,1) both}
+.grow{transform-box:fill-box;transform-origin:bottom;animation:grow .7s cubic-bezier(.2,.8,.2,1) both}
+.growx{transform-box:fill-box;transform-origin:left;animation:growx .7s cubic-bezier(.2,.8,.2,1) both}
+.draw{stroke-dasharray:1;animation:draw 1.1s ease-out both}.fade{animation:fade .6s ease-out both}
+@keyframes pop{from{transform:scale(.3);opacity:0}}@keyframes grow{from{transform:scaleY(0)}}
+@keyframes growx{from{transform:scaleX(0)}}@keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes fade{from{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style><rect x=".5" y=".5" width="339" height="299" rx="20" fill="var(--bg)" stroke="var(--line)"/><text x="24" y="38" class="t">Le 5 aree</text><text x="316" y="38" class="s" text-anchor="end">ultima sessione</text><text x="24" y="72" class="b">Filo logico</text><text x="316" y="72" class="b" text-anchor="end">7,0</text><rect x="24" y="81" width="292" height="8" rx="4" fill="var(--track)"/><rect class="growx" style="animation-delay:0ms" x="24" y="81" width="204.4" height="8" rx="4" fill="var(--blue)"/><text x="24" y="116" class="b">Fluidità</text><text x="316" y="116" class="b" text-anchor="end">6,0</text><rect x="24" y="125" width="292" height="8" rx="4" fill="var(--track)"/><rect class="growx" style="animation-delay:70ms" x="24" y="125" width="175.2" height="8" rx="4" fill="var(--orange)"/><text x="24" y="160" class="b">Presenza</text><text x="316" y="160" class="b" text-anchor="end">6,0</text><rect x="24" y="169" width="292" height="8" rx="4" fill="var(--track)"/><rect class="growx" style="animation-delay:140ms" x="24" y="169" width="175.2" height="8" rx="4" fill="var(--aqua)"/><text x="24" y="204" class="b">Sicurezza</text><text x="316" y="204" class="b" text-anchor="end">6,0</text><rect x="24" y="213" width="292" height="8" rx="4" fill="var(--track)"/><rect class="growx" style="animation-delay:210ms" x="24" y="213" width="175.2" height="8" rx="4" fill="var(--yellow)"/><text x="24" y="248" class="b">Conversazione</text><text x="316" y="248" class="b" text-anchor="end">7,0</text><rect x="24" y="257" width="292" height="8" rx="4" fill="var(--track)"/><rect class="growx" style="animation-delay:280ms" x="24" y="257" width="204.4" height="8" rx="4" fill="var(--violet)"/></svg>
